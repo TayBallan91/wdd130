@@ -1,0 +1,18 @@
+.circles{
+ display: block;
+ width: 80%;
+}
+section{
+ display: block;
+ width: 80%;
+ margin: 4px;
+ border: round 4px gray;
+}
+body{
+ display: block;
+ margin: 80px;
+ 
+}
+main{
+ display: block;
+}
