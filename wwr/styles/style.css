@@ -21,6 +21,8 @@ h4 {
 }
 .logo {
     width: 80px;
+}
+#logo_link{
     padding-top: 5px;
 }
 .icon {
@@ -71,7 +73,7 @@ main section img{
     color: white;
     text-decoration: none;
     font-size: 18px;
-    padding: 15px;
+    padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
 }
@@ -99,11 +101,11 @@ book:hover, .join:hover {
 .msg h2{
     color: white;
     font-family: 'Rock Salt', cursive;
-    padding-bottom: 15px;
 }
 .msg p {
     color: white;
     font-size: .8em;
+    padding-bottom: 15px;
 } 
 footer {
     background-color:#E9D8A6;
