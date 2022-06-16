@@ -191,26 +191,26 @@ footer.social img {
 }
 
 /* SUB PAGE*/
-.rates-title {
+.rivers-title {
     color: #AE2010;
     font-family: 'Rock Salt', cursive;
     font-size: 1em;
 }
-#rates-box {
+#rivers-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
-#rates-img {
+#rivers-img {
     width: 100%; 
 }
-#rates-msg {
+#rivers-msg {
     grid-column: 1/2;
     grid-row: 1/2;
     margin-top: 10px;
     padding: 5px;
 }
-#rates-msg h1, #rates-msg h4{
+#rivers-msg h1, #rates-msg h4{
     text-align: left;
 }
 .book-rates {
@@ -222,7 +222,7 @@ footer.social img {
     margin-top: 50px;
     border-radius: 5px;
 }
-.rates-button-box {
+.rivers-button-box {
     text-align: left;
 }
 .book-rates:hover {
@@ -232,7 +232,7 @@ footer.social img {
 .raft-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr) ;
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 .rafting-img {
     border: 5px solid #1B8592FF;
@@ -240,7 +240,7 @@ footer.social img {
     box-shadow: 5px 5px 10px #734b01;
     margin: 10px;
 }
-.rafting{
+.rafting-card{
     margin-top: 10px;
     grid-column: 2/3;
     grid-row: 1/2;  
@@ -261,23 +261,18 @@ footer.social img {
     transform: scale(1.1);
 }
 .redwall{
-    margin-top: 5px;
+    margin: 50px;
     grid-column: 1/2;
-    grid-row: 2/3;  
+    grid-row: 4/5;  
 }
 .raft{
-    margin-top: 5px;
-    grid-column: 2/3;
-    grid-row: 2/3;  
+    margin: 50px;
+    grid-column: 2/4;
+    grid-row: 4/5;  
 }
 .waterfall{
-    margin-top: 5px;
-    grid-column: 1/2;
-    grid-row: 3/4;  
-}
-.share-button-box {
-    grid-column: 2/3;
-    grid-row: 3/4;
+    margin: 50px;
+    grid-column: 4/6;
 }
 .river-msg {
     background-color: #1B8592FF ;
@@ -285,7 +280,7 @@ footer.social img {
     padding: 15px;
     margin-top: 10px;
     grid-column: 3/10;
-    grid-row: 4/5;
+    grid-row: 2/3;
     box-shadow: 5px 5px 10px #3d0803;
 }
 .river-msg h2{
@@ -303,7 +298,7 @@ footer.social img {
     box-shadow: 5px 5px 10px #734b01;
     margin-top: 100px;
     grid-column: 1/4;
-    grid-row: 4/5;
+    grid-row: 2/3;
     box-shadow: 5px 5px 10px #3d0803;
 }
 
@@ -369,7 +364,4 @@ footer.social img {
     footer {
         margin-top: 25px;
     }
-
-  
-
-    
+}
