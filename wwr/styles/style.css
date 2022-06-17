@@ -273,6 +273,7 @@ footer.social img {
 .waterfall{
     margin: 50px;
     grid-column: 4/6;
+    grid-row: 4/5;
 }
 .river-msg {
     background-color: #1B8592FF ;
