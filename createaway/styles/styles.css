@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+body {
+    background-color: #8ECAE6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+.home-title {
+    color: #FFB703;
+    font-family: 'Chelsea', cursive;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h4 {
+    color: #FEFAF0;
+}
+
 .logo {
     width: 80px;
 }
@@ -5,4 +24,47 @@
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
+header {
+    background-color: #219EBC ;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    opacity: .6;
+}
+
+nav a{
+    text-align: center;
+    color: #023047;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    color: white;
+    background-color: #FB8500;   
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-img {
+    width: 100%; 
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
 }
