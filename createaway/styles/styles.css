@@ -68,3 +68,49 @@ nav a:hover {
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+
+.msg {
+    background-color: #E9D8A6 ;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #3d0803;
+
+}
+.msg h2{
+    color: #EE9B00;
+    font-family: 'Rock Salt', cursive;
+}
+.msg p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+} 
+
+footer {
+    background-color:#E9D8A6;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h3 {
+    color: black;
+}
+footer h3:hover {
+    text-decoration: underline;
+}
+footer a {
+    text-decoration: none;
+    color: #1B8592FF   
+}
+footer a:hover {
+    color: white
+    
+}
+footer.social img {
+    padding-top: 15px;
+}
