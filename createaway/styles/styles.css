@@ -114,3 +114,50 @@ footer a:hover {
 footer.social img {
     padding-top: 15px;
 }
+/* Painting */
+#painting {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#painting-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#painting-img {
+    width: 100%; 
+}
+#painting-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+
+}
+#painting-msg h1, #paining-msg h4{
+    text-align: center;
+}
+
+/* Carpentry */
+#carpentry {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#carpentry-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#carpentry-img {
+    width: 100%; 
+}
+#carpentry-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+
+}
+#carpentry-msg h1, #carpentry-msg h4{
+    text-align: center;
+}
