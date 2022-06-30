@@ -26,7 +26,7 @@ h4 {
     align-self: center;
 }
 header {
-    background-color: #219EBC ;
+    background-color: #0e4958 ;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -68,26 +68,48 @@ nav a:hover {
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
-
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10 , 1fr) ;
+}
+.tools, .paint {
+   width: 50%;
+}
+.tools {
+    margin-top: 100px;
+    grid-column: 4/6;
+    grid-row: 2/4;
+    box-shadow: 5px 5px 10px #0e4958;
+}
+.paint{
+    margin-top: 100px;
+    grid-column: 1/3;
+    grid-row:  1/3;
+    box-shadow: 5px 5px 10px #0e4958;
+}
 .msg {
     background-color: #E9D8A6 ;
     line-height: 1.5em;
     padding: 35px;
     margin-top: 200px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #3d0803;
+    grid-column: 1/11;
+    grid-row: 4/6; 
+    box-shadow: 5px 5px 10px #0e4958;
 
 }
 .msg h2{
     color: #EE9B00;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Chelsea', cursive;
 }
 .msg p {
     color: white;
     font-size: .8em;
     padding-bottom: 15px;
 } 
+.msg h2, .msg p {
+    grid-column: 4/8;
+    grid-row: 5/9;
+}
 
 footer {
     background-color:#E9D8A6;
@@ -160,4 +182,68 @@ footer.social img {
 }
 #carpentry-msg h1, #carpentry-msg h4{
     text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid .raft-grid{
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #rates {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #rates-msg{
+        margin-top: 0;
+    }
+    #rates-msg h1, #rates-msg h4{
+        display: none
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rates-title{
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    .rafting-img, .rafting, .river-raft, .redwall, .raft, .waterfall, .group-raft{
+        margin: 50px auto;
+        width: 60%; 
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .river-msg{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
