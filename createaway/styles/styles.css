@@ -85,6 +85,12 @@ nav a:hover {
     grid-row:  2/3;
     box-shadow: 5px 5px 10px #0e4958;
 }
+.paint h2, .tools h2{
+    font-family: 'Chelsea', cursive;
+    color: #FB8500;
+    text-align: center;
+
+}
 .paint-img:hover, .tools-img:hover {
     opacity: .6;
     transform: scale(1.1);
@@ -125,7 +131,7 @@ footer h3:hover {
 }
 footer a {
     text-decoration: none;
-    color: #1B8592FF   
+    color: #219EBC;  
 }
 footer a:hover {
     color: white
