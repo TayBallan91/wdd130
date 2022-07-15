@@ -8,7 +8,9 @@ body {
     margin: 0;
 }
 #content{
+    max-width: 1600%;
     margin: auto;
+    text-align: center;
 }
 .logo {
     width: 80px;
@@ -108,7 +110,7 @@ h5 {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-top: 150px;
+    margin-top: 10px;
 }
 #hero-msg h1, #hero-msg h5{
     text-align: center;
@@ -125,7 +127,7 @@ h5 {
 .tools{
     margin-top: 100px;
     grid-column: 2/3;
-    grid-row: 3/4;  
+    grid-row: 2/3;  
 }
 .tools-img{
     box-shadow: 5px 5px 10px #023047;
@@ -149,7 +151,7 @@ h5 {
     background-color: #E9D8A6 ;
     line-height: 1.5em;
     padding: 35px;
-    margin-top: 150px;
+    margin-top: 50px;
     grid-column: 3/4;
     grid-row: 1/5; 
     box-shadow: 5px 5px 10px #023047;
@@ -351,6 +353,7 @@ footer.social img {
     text-align: center;
 }
 .woodworking-msg h2{
+    margin-top: 100px;
     color: #219EBC;
     font-family: 'Chelsea', cursive;
 }
@@ -360,7 +363,7 @@ footer.social img {
     padding-bottom: 15px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 900px) {
     #hero, .home-grid .painting-grid .carpentry-grid .topnav .login-container{
         display: block;
         height: auto;
