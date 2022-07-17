@@ -289,8 +289,9 @@ footer.social img {
     width: 100%; 
 }
 #carpentry-msg {
-    grid-column: 1/6;
+    grid-column:2/4;
     grid-row: 1/3;
+    text-align: center;
     margin-top: 100px;
     color: #FFB703;
 }
